@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'open sans';
+    font-size: 16px;
+    background-color: #161616;
+}
+
+header{
+	width: 100%;
+	height: 50px;
+	box-shadow: 1px 1px 5px #000;
+	background: hsla(190, 21%, 27%, 1);
+    background: #07282D;
+    position: fixed;
+    
+} 
+#Menu{
+	width: 520px;
+	padding-top: 13px;
+	margin: auto;
+
+}
+
+#Menu ul a{
+	text-align: center;
+	color: white;
+	text-decoration: none;
+	font:16px Verdama;
+	padding: 13px 20px 20px 20px;
+}
+
+#Menu ul a:hover{
+	color: black;
+	background: #C8D7E5;
+}
+main{
+	width: 100%;
+    height: 3200px;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    color: #fff;
+    background: hsla(188, 73%, 10%, 1);
+    background: linear-gradient(270deg, hsla(188, 73%, 10%, 1) 0%, hsla(0, 1%, 30%, 1) 100%);
+    background: -moz-linear-gradient(270deg, hsla(188, 73%, 10%, 1) 0%, hsla(0, 1%, 30%, 1) 100%);
+    background: -webkit-linear-gradient(270deg, hsla(188, 73%, 10%, 1) 0%, hsla(0, 1%, 30%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#07282D", endColorstr="#4D4B4B", GradientType=1 );}
+main .textos {
+    margin-top: 250px;
+    text-align: center;
+    color: #07282D;
+    background: #C8D7E5;
+}
+main .titulo {
+    font-size: 85px;
+   
+}
+
+main .subtitulo {
+    font-size: 42px;
+    font-weight: 300;
+    margin-bottom: 32px;
+
+}
+
+main .Presentacion {
+    width: 100%;
+    height: 650px;
+    background-image: url(fondo.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    color: #fff;
+
+}
+
+main .acerca-de{
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 900px;
+    margin: auto;
+    overflow: hidden;
+    padding: 52px 0;
+}
+.sobre-nosotros {
+    margin-top: 80px;
+    text-align: center;
+    font-size: 56px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+.parrafo {
+    margin-bottom: 13px;
+    font-weight: 300;
+    text-align: justify;
+    line-height: 24px;
+    color: white;
+}
+.galeria {
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.imagenes {
+    width: 20%;
+    height: 400px;
+    overflow: hidden;
+
+}
+.imagenes img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.cards {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+    margin: 10px 0px;
+    width: 30%;
+    height: 200px;
+    text-align: center;
+    padding: 5px;
+    box-shadow: 0px 0px 1px 0 rgba(200,215,229);
+}
+
+.cards img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+.texto1 {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+.hobi{
+    margin-top: 20px;
+}
+
+
+ .contacto{
+    height: auto;
+}
+
+.titulo-footer,
+.subtitulo-footer {
+    color: #fff;
+    text-align: center;
+    font-weight: 400;
+    font-size: 56px;
+}
+
+.subtitulo-footer {
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+form {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+input[type="text"],
+input[type="email"] {
+    display: inline-block;
+    width: 48%;
+    padding: 13px;
+    border: none;
+    color: black;
+    font-family: 'open sans';
+    background: #C8D7E5;
+    margin-bottom: 16px;
+    border-top: 5px solid rgba(37, 37, 33, .7);
+}
+
+textarea {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 200px;
+    min-height: 200px;
+    background: #C8D7E5;
+    padding: 13px;
+    border: none;
+    color: black;
+    font-family: 'open sans';
+    margin-bottom: 16px;
+}
+
+input[type="submit"] {
+    text-align: center;
+    display: inline-block;
+    padding: 13px;
+    border: none;
+    color: black;
+    background: #C8D7E5;
+    width: 900px;
+}
+footer{
+    color: black;
+    text-decoration: none;   
+    height: 40px;
+    background: #C8D7E5;
+    margin-top: 15;
+}
+footer .a{
+    text-decoration: none;
+    color: black;
+       
+}
